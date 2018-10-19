@@ -13,8 +13,8 @@ export const Component = (props) => {
 
     return (
         <TextoFormulario visibility={props.visibility}>
-            <p>Olá senhor(a), {nameValue.value != null ? nameValue.value : null}</p>
-            <p>Sua cor favorita é: {colorValue.value != null ? colorValue.value : null}</p>
+            <p>Olá senhor(a), {nameValue != null ? nameValue.value : null}</p>
+            <p>Sua cor favorita é: {colorValue != null ? colorValue.value : null}</p>
         </TextoFormulario>
     );
 }
